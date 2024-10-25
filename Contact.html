@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us - AI: Friend or Foe?</title>
+  <style>
+    body { font-family: Arial, sans-serif; background-color: #f4f4f4; margin: 0; color: #333; }
+    nav ul { display: flex; justify-content: center; background: #333; list-style: none; padding: 15px; }
+    nav ul li { margin: 0 15px; }
+    nav ul li a { color: white; text-decoration: none; font-size: 18px; }
+    nav ul li a:hover { color: #00aaff; }
+    #contact { padding: 50px; max-width: 600px; margin: auto; text-align: center; }
+    #contact h1 { font-size: 36px; margin-bottom: 20px; }
+    form { display: flex; flex-direction: column; }
+    input, textarea, button { padding: 10px; margin: 10px 0; border-radius: 5px; border: 1px solid #ccc; font-size: 16px; }
+    button { background-color: #00aaff; color: white; border: none; cursor: pointer; transition: background-color 0.3s; }
+    button:hover { background-color: #008bcc; }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="portfolio.html">Portfolio</a></li>
+      <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+  </nav>
+
+  <!-- Contact Us Section -->
+  <section id="contact">
+    <h1>Contact Us</h1>
+    <form action="submit_form.php" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" rows="5" placeholder="Your Message"></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+</body>
+</html>

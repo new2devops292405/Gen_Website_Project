@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI: Friend or Foe?</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      color: #333;
+      background-color: #f4f4f4;
+    }
+    /* Navigation */
+    nav {
+      background: #333;
+      padding: 10px 20px;
+      text-align: center;
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+    }
+    nav ul li {
+      margin: 0 15px;
+    }
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 18px;
+      padding: 10px 15px;
+      transition: color 0.3s;
+    }
+    nav ul li a:hover {
+      color: #00aaff;
+    }
+    /* Hero Section */
+    #hero {
+      background: url('https://via.placeholder.com/1200x600') no-repeat center center/cover;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      text-align: center;
+    }
+    #hero h1 {
+      font-size: 48px;
+      margin-bottom: 10px;
+      animation: fadeIn 1s ease-in-out;
+    }
+    #hero p {
+      font-size: 20px;
+      margin-bottom: 20px;
+      animation: fadeIn 1.5s ease-in-out;
+    }
+    #hero .cta-button {
+      background-color: #00aaff;
+      color: #fff;
+      padding: 12px 20px;
+      text-decoration: none;
+      border-radius: 5px;
+      font-size: 18px;
+      transition: background-color 0.3s;
+    }
+    #hero .cta-button:hover {
+      background-color: #008bcc;
+    }
+    /* Key Topics */
+    #topics {
+      padding: 50px;
+      text-align: center;
+    }
+    #topics h2 {
+      font-size: 36px;
+      margin-bottom: 20px;
+    }
+    .topic {
+      display: inline-block;
+      width: 250px;
+      padding: 20px;
+      margin: 10px;
+      background-color: #eaeaea;
+      border-radius: 10px;
+      transition: transform 0.3s;
+    }
+    .topic img {
+      width: 100px;
+      margin-bottom: 10px;
+    }
+    .topic:hover {
+      transform: scale(1.05);
+    }
+    /* Video Section */
+    #intro-video {
+      padding: 50px;
+      text-align: center;
+      background-color: #333;
+      color: #fff;
+    }
+    #intro-video video {
+      max-width: 100%;
+      border: 3px solid #00aaff;
+    }
+    /* Footer */
+    footer {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+    }
+    /* Keyframe Animations */
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(-20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="hero">
+    <div>
+      <h1>AI: Friend or Foe?</h1>
+      <p>Exploring whether AI is here to help us or replace us</p>
+      <a href="about.html" class="cta-button">Learn More</a>
+    </div>
+  </section>
+
+  <!-- Key Topics Section -->
+  <section id="topics">
+    <h2>Key Topics</h2>
+    <div class="topic">
+      <img src="https://via.placeholder.com/100" alt="AI in Healthcare">
+      <h3>AI in Healthcare</h3>
+      <p>AI-powered innovations improving patient care and diagnostics.</p>
+    </div>
+    <div class="topic">
+      <img src="https://via.placeholder.com/100" alt="AI in Finance">
+      <h3>AI in Finance</h3>
+      <p>Automating financial services, predictions, and risk management.</p>
+    </div>
+    <div class="topic">
+      <img src="https://via.placeholder.com/100" alt="AI in Education">
+      <h3>AI in Education</h3>
+      <p>Personalizing learning experiences to suit individual needs.</p>
+    </div>
+  </section>
+
+  <!-- Video Section -->
+  <section id="intro-video">
+    <h2>Watch Our Intro Video on AI</h2>
+    <video controls>
+      <source src="path/to/your/video.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2023 AI: Friend or Foe? - All Rights Reserved.</p>
+  </footer>
+
+</body>
+</html>
